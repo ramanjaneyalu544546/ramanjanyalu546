@@ -1,0 +1,40 @@
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  button img {
+    width: 80px;
+    height: 30px;
+    border-radius: 140%;
+    
+  }
+  h1{
+    font-style: italic;
+  }
+  .grid{
+   
+    display: flex;
+    grid-template-rows: 1fr 2fr 3fr 4fr;
+    grid-template-columns: 1fr 2fr 3fr 4fr;
+    grid-gap: 10px;
+    justify-content: left;
+    text-decoration: underline;
+  }
+  .anji{
+    display: flex;
+    grid-template-columns:1fr 2fr ;
+    grid-gap:10px;
+    justify-content: left;
+    
+  }
+  .sanjay{
+    display: flex;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: left;
+
+  }
+  
